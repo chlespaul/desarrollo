@@ -19,7 +19,7 @@
         },
         save:function() { 
             var model = $('#userForm').serializeObject();
-            document.getElementById("rta").innerHTML = "<h1> El usuario " + model.firstName + " " + model.lastName + " nació el " + model.birthDate +  "</h1>";
+            document.getElementById("rta").innerHTML = "<h> Se creó el usuario con el nombre " + model.firstName + " " + model.lastName + " nacido en la fecha " + model.birthDate + "</h>";
         },
         cancel: function(){
             alert('Cancel');
